@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+};
+
+.firstsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(25, 25, 211);
+    border: #f0f0f0 solid 1px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+#logo{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+#name{
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+.bodycontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.introcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.piccontainer{
+    display: flex;
+    justify-content: center;
+}
+#intropic{
+    width: 300px;
+    height: 200px;
+}
